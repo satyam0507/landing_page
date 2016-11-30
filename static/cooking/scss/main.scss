@@ -1,0 +1,57 @@
+/*!
+ * Bootstrap v4.0.0-alpha.5 (https://getbootstrap.com)
+ * Copyright 2011-2016 The Bootstrap Authors
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+// Core variables and mixins
+ 
+ @import "bootstrap4_scss/variables";
+ @import "boot_variables_override";
+ @import "bootstrap4_scss/mixins";
+
+// // Reset and dependencies
+ @import "bootstrap4_scss/normalize";
+ @import "bootstrap4_scss/print";
+
+// // Core CSS
+ @import "bootstrap4_scss/reboot";
+// @import "bootstrap4_scss/type";
+ @import "bootstrap4_scss/images";
+// @import "bootstrap4_scss/code";
+ @import "bootstrap4_scss/grid";
+// @import "bootstrap4_scss/tables";
+// @import "bootstrap4_scss/forms";
+// @import "bootstrap4_scss/buttons";
+
+// // Components
+// @import "bootstrap4_scss/animation";
+// @import "bootstrap4_scss/dropdown";
+// @import "bootstrap4_scss/button-group";
+// @import "bootstrap4_scss/input-group";
+// @import "bootstrap4_scss/custom-forms";
+// @import "bootstrap4_scss/nav";
+// @import "bootstrap4_scss/navbar";
+// @import "bootstrap4_scss/card";
+// @import "bootstrap4_scss/breadcrumb";
+// @import "bootstrap4_scss/pagination";
+// @import "bootstrap4_scss/tags";
+// @import "bootstrap4_scss/jumbotron";
+// @import "bootstrap4_scss/alert";
+// @import "bootstrap4_scss/progress";
+// @import "bootstrap4_scss/media";
+// @import "bootstrap4_scss/list-group";
+// @import "bootstrap4_scss/responsive-embed";
+// @import "bootstrap4_scss/close";
+
+// // Components w/ JavaScript
+// @import "bootstrap4_scss/modal";
+// @import "bootstrap4_scss/tooltip";
+// @import "bootstrap4_scss/popover";
+// @import "bootstrap4_scss/carousel";
+
+// // Utility classes
+@import "bootstrap4_scss/utilities";
+
+@import "custom.scss";
