@@ -1,0 +1,11 @@
+{
+  "name": "landing_page",
+  "version": "0.1.0",
+  "description": "landing page which will provide launching platform for the pages design in various framework like polymer,angular etc.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Satyam Singh",
+  "license": "MIT"
+}
