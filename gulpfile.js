@@ -10,7 +10,8 @@ var configPath = require('./config/init.json');
 
 gulp.task('nodemon', function () {
     nodemon({
-        script: 'server.js'
+        script: 'server.js',
+        ext:'js'
     });
 });
 
@@ -30,9 +31,14 @@ gulp.task('sass:watch', function () {
     gulp.watch(configPath.scssPath + '*.scss', ['sass']);
 });
 
-gulp.task('default',function(){
+gulp.task('js', () => {
+    return gulp.src(configPath.esJsPath + configPath.esJsFile)
+        .pipe(gulp.dest(configPath.jsPath));
+});
+
+gulp.task('default', function () {
     runSequence(
-        'sass',
+        ['sass', 'js'],
         'sass:watch',
         'nodemon'
     )

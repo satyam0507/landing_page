@@ -1,5 +1,8 @@
 {
     "scssPath":"./static/cooking/scss/",
     "scssFile":"main.scss",
-    "cssPath":"./static/compiled/css/"
+    "cssPath":"./static/compiled/css/",
+    "esJsPath":"./static/cooking/es6/",
+    "esJsFile":"main.js",
+    "jsPath":"./static/compiled/js/"
 }

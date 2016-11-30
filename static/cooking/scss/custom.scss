@@ -1,3 +1,92 @@
 @import "custom_variable";
 
+// scss type 1 
 
+.flex{
+    display: flex;  
+    &.center{
+        align-items: center;
+    }
+    &.middle{
+        justify-content: center;
+    }
+    &.flex-c{
+        flex-direction: column;
+    }
+}
+.inline-flex{
+    display: inline-flex;  
+    &.center{
+        align-items: center;
+    }
+    &.middle{
+        justify-content: center;
+    }
+    &.flex-c{
+        flex-direction: column;
+    }
+}
+a{
+    color:inherit;
+    text-decoration: none;
+    &:hover{
+        color:inherit;
+        text-decoration: none;
+    }
+    &:focus{
+         color:inherit;
+        text-decoration: none;
+    }
+    &:visited{
+         color:inherit;
+        text-decoration: none;
+    }
+}
+
+
+
+// scss type 2
+.lp-header{
+   color:$lp-headerColor;
+.lp-navbar{
+    height: 64px;
+    
+}
+}
+.lp-hero{
+    height: 450px;
+    background-image: url('http://satyamsingh.netne.net/image/computer-1176260_1920.jpg');
+    background-size: cover;
+    color:$lp-heroColor;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.8);
+    .lp-userName{
+        font-family: Cambria;
+        font-size: 72px;
+        font-weight: 900;
+        letter-spacing: 0.05em;
+        border: solid;
+        border-color: $lp-heroColor;
+        border-width: 10px;
+        padding: 0.2rem 0.3em;
+        box-shadow: 1px 1px 1px rgba(0,0,0,.8);
+    }
+    .lp-userTag{
+        letter-spacing: 0.1em;  
+    }
+}
+
+
+@media (max-width:700px){
+     .lp-userName{
+        font-size: 10vw!important;
+        font-weight: 800!important;
+        border-width: 2vw!important;
+    }
+   
+}
+@media (max-width:500px){
+ .lp-userTag{
+        font-size: 4vw;  
+    }
+}

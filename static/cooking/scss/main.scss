@@ -6,9 +6,9 @@
  */
 
 // Core variables and mixins
- 
+ @import "variables_override.scss";   
  @import "bootstrap4_scss/variables";
- @import "boot_variables_override";
+ 
  @import "bootstrap4_scss/mixins";
 
 // // Reset and dependencies
@@ -31,8 +31,8 @@
 // @import "bootstrap4_scss/button-group";
 // @import "bootstrap4_scss/input-group";
 // @import "bootstrap4_scss/custom-forms";
-// @import "bootstrap4_scss/nav";
-// @import "bootstrap4_scss/navbar";
+ @import "bootstrap4_scss/nav";
+ @import "bootstrap4_scss/navbar";
 // @import "bootstrap4_scss/card";
 // @import "bootstrap4_scss/breadcrumb";
 // @import "bootstrap4_scss/pagination";
@@ -54,4 +54,4 @@
 // // Utility classes
 @import "bootstrap4_scss/utilities";
 
-@import "custom.scss";
+@import 'custom.scss';

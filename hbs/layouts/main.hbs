@@ -1,13 +1,19 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <title>Your Title</title>
-    <link rel="stylesheet" href="complied/css/main.css">
+    {{> meta/tags}}
+    <link rel="stylesheet" href="compiled/css/main.css">
 </head>
+
 <body>
     {{> header/header}}
-    {{{body}}}
+    {{{body}}} 
     {{> footer/footer}}
-    <script src="complied/js/main.js"></script>
+
+    {{> cdn/scripts}}
+    <script src="compiled/js/main.js"></script>
 </body>
+
 </html>
