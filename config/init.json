@@ -1,5 +1,5 @@
 {
     "scssPath":"./static/cooking/scss/",
     "scssFile":"main.scss",
-    "cssPath":"./static/complied/css/"
+    "cssPath":"./static/compiled/css/"
 }
